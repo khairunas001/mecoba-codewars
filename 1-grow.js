@@ -1,3 +1,4 @@
+//day-1
 //fungsi biasa (mainstream)
 //megggunakan perulangan
 function grow(x){
