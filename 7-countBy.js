@@ -9,17 +9,17 @@
 // countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]
 // countBy(2,5) === [2,4,6,8,10]
 
-// function countBy(x, n) {
-//     let z = [];
-//     for(let i=1; i<=n; i++){
-//         z.push(x*i);
-//     }
-//     return z;
-// }
+function countBy(x, n) {
+    let z = [];
+    for(let i=1; i<=n; i++){
+        z.push(x*i);
+    }
+    return z;
+}
 
-// function countBy(x, n){
-//     return[...Array(n)].map((el, i) => (i+1)*x)
-// } 
+function countBy(x, n){
+    return[...Array(n)].map((el, i) => (i+1)*x)
+} 
 
 const countBy = (x,n) => [...Array(n)].map((el,i) => (i+1)*x)
 
